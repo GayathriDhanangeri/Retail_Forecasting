@@ -1,0 +1,20 @@
+[
+  {
+    "model":"Baseline: same day last week (lag_7)",
+    "MAE":2072.346,
+    "RMSE":2665.717,
+    "R2":-0.171
+  },
+  {
+    "model":"Linear regression",
+    "MAE":1619.42,
+    "RMSE":2116.169,
+    "R2":0.262
+  },
+  {
+    "model":"Tuned gradient boosting",
+    "MAE":1532.508,
+    "RMSE":1941.123,
+    "R2":0.379
+  }
+]
